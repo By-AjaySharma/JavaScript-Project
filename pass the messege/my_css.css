@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+
+.cantainer {
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(20, 89, 168);
+}
+
+.cantainer1 form {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+#id-messege{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+font-size: 25px;
+background-color: blue;
+}
+.class-output{
+    width: 70%;
+    margin: auto;
+    background-color: beige;
+}
