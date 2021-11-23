@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: coral;
+  margin-top: 10%;
+}
+
+button{
+    padding: 10px;
+ font-size: 10px;
+}

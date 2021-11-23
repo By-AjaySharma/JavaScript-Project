@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Calculator</title>
+   <link rel="stylesheet" href="my_css.css">
+</head>
+
+<body>
+   <div class="main-container">
+      <div class="calculator">
+         <table>
+            <tr>
+
+               <th colspan="4">
+                  <form>
+                     <input type="text" id="result">
+                  </form>
+               </th>
+               <div class="btn-container">
+            </tr>
+            <tr>
+               <th><button type="button" value="0" onclick="display(0)">0</button></th>
+               <th><button type="button" value="1" onclick="display(1)">1</button></th>
+               <th><button type="button" value="3" onclick="display(3)">3</button></th>
+               <th><button type="button" class="btn-clear" onclick="clr()">C</button></th>
+
+            </tr>
+            <tr>
+               <th> <button type="button" value="4" onclick="display(4)">4</button></th>
+               <th> <button type="button" value="5" onclick="display(5)">5</button></th>
+               <th> <button type="button" value="6" onclick="display(6)">6</button></th>
+               <th> <button type="button" value="+" onclick="display('+')">+</button></th>
+
+            </tr>
+            <tr>
+               <th><button type="button" value="7" onclick="display(7)">7</button></th>
+               <th> <button type="button" value="8" onclick="display(8)">8</button></th>
+               <th><button type="button" value="9" onclick="display(9)">9</button></th>
+               <th> <button type="button" value="-" onclick="display('-')">-</button></th>
+            </tr>
+            <tr>
+               <th><button type="button" value="." onclick="display('.')">.</button></th>
+               <th><button type="button" value="/" onclick="display('/')">/</button></th>
+               <th> <button type="button" value="*" onclick="display('*')">*</button></th>
+               <th><button type="button" class="btn-equal" onclick="solve()">=</button></th>
+            </tr>
+      </div>
+      </table>
+   </div>
+   </div>
+   <script src="My_javascript.js"></script>
+</body>
+
+</html>
