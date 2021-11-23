@@ -1,0 +1,74 @@
+<!-- This project show the random color in backgroud with its hexa value -->
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="C:\Users\byaja\Documents\JavaScript Project\bootstap.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="bootstap.css">
+    <style>
+        .main-container {
+            margin: auto;
+            margin-top: 15%;
+            padding: 30px;
+            width: 60%;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: #292929;
+            background-color: white;
+        }
+
+        .container {
+            text-align: center;
+            margin: auto;
+
+        }
+
+        .text-container {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+         justify-content: center;
+            flex-wrap: wrap;
+        }
+
+
+        .btn-container {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="text-container">
+                <div>
+                    <h1 class=text-uppercase><u>Backgrond Color Hex</u>&nbsp : </h1>
+                </div>
+                <div>
+                    <h1 id="hex-value"> &nbsp #ffffff</h1>
+                </div>
+            </div>
+            <div class="btn-container">
+                <div>
+                    <button id="btn" class="btn btn-primary" onclick="startRandom()">Start</button>
+                </div>
+                <div>
+                    <button id="btn" class="btn btn-success" onclick="stopRandom()">Stop</button>
+                </div>
+                <div>
+                    <button id="btn" class="btn btn-danger" onclick="resetRandom()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
